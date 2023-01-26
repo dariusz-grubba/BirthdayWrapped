@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <title>Birthday Wrapped</title>
+
+    <link rel="icon" href="ICON.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+
+    <!-- demo styles -->
+    <link rel="stylesheet" href="demo/style.css">
+
+    <!-- lib styles -->
+    <link rel="stylesheet" href="dist/zuck.css">
+    
+    <!-- lib skins -->
+    <link rel="stylesheet" href="dist/skins/snapgram.css">
+    <link rel="stylesheet" href="dist/skins/vemdezap.css">
+    <link rel="stylesheet" href="dist/skins/facesnap.css">
+    <link rel="stylesheet" href="dist/skins/snapssenger.css">
+  </head>
+
+  <body>
+    <a class="disclaimer">
+      <p>BIRTHDAY</p>
+      <p class="disclaimer-text2">WRAPPED</p>
+    </a>
+    <div class="info-welcome">
+      <img src = "./src/logo.svg" alt="SVG"/>
+      <p>Happy birthday!</p>
+      <p class="text-info-welcome">Wrapped summarizing your 2022 created and personalized especially for you in celebration of your eighteenth birthday!</p>
+    </div>
+    <div id="stories" class="storiesWrapper">
+
+    </div>
+    <script src="dist/zuck.min.js"></script>
+    <script src="demo/script.js"></script>
+    <script>
+      var currentSkin = getCurrentSkin();
+      var stories = new Zuck('stories', {
+        backNative: true,
+        previousTap: true,
+        skin: currentSkin['name'],
+        autoFullScreen: currentSkin['params']['autoFullScreen'],
+        avatars: currentSkin['params']['avatars'],
+        paginationArrows: currentSkin['params']['paginationArrows'],
+        list: currentSkin['params']['list'],
+        cubeEffect: currentSkin['params']['cubeEffect'],
+        localStorage: true,
+        stories: [
+          Zuck.buildTimelineItem(
+            "ramon", 
+            "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/1.jpg",
+            "Play",
+            "https://www.google.com/search?q=taylor+swift&rlz=1C1KNTJ_enPL1003PL1003&sxsrf=ALiCzsaBn7-vfsmJLlwyL-LJfcCfsdEz0Q:1672538382410&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj4j6CBo6X8AhVSxosKHcv1AS8Q_AUoAXoECAEQAw&biw=1858&bih=977&dpr=1#imgrc=SK23TFIBz9djNM",
+            timestamp(),
+            [
+              ["ramon-1", "photo", 8, "https://i.pinimg.com/originals/e0/f1/46/e0f146b740f134ea416a8474c09c8547.jpg", "", '', false, false, timestamp()],
+              ["ramon-2", "photo", 8, "https://www.billboard.com/wp-content/uploads/media/taylor-swift-reputation-tour-nov-21-2018-billboard-1548.jpg?w=1024", '', false, false, timestamp()],
+              ["ramon-2", "photo", 8, "https://www.lifeandstylemag.com/wp-content/uploads/2022/05/taylor-1989-featured.jpg?quality=86&strip=all", '', false, false, timestamp()],
+              ["ramon-2", "photo", 8, "https://wallpapershome.com/images/wallpapers/mtv-video-music-awards-2017-2160x3840-taylor-swift-4k-15422.jpg", '', false, false, timestamp()],
+              ["ramon-2", "photo", 8, "https://www.toddowyoung.com/img-get2/I0000tHgd3mqvMzw/fit=1000x750/taylor-swift-20141213-004949-D8B-0983-vertical-crop.jpg", '', false, false, timestamp()],
+              ["ramon-2", "photo", 8, "https://i.pinimg.com/originals/9c/9f/e5/9c9fe5cb63d1df4a976c50fdf75fa1ec.jpg", '', false, false, timestamp()],
+              ["ramon-2", "photo", 8, "https://pyxis.nymag.com/v1/imgs/2c3/876/441f44bf413d17fd8efc89013a729dbfd5-GettyImages-887121584-master.rdeep-vertical.w768.jpg", '', false, false, timestamp()],
+              ["ramon-2", "photo", 8, "https://media.wired.com/photos/59a08dd0f210736360c3c3bb/125:94/w_1885,h_1417,c_limit/TaylorSwift-617309460.jpg", '', false, false, timestamp()],
+            ]
+          ),
+        ]
+      });
+    </script>
+     <div class="info-welcome2">
+      <img src = "./src/ts.png" alt="TS"/>
+      <p>Credits</p>
+      <p class="text-info-welcome2">Made possible thanks to<br>
+        <div class="text-info-welcome2-credits">
+        <b> Ramon Souza (ramonszo)</b><br><span>(Zuck.js library)</span><br>
+        <b> Dariusz Grubba</b><br><span>(Wrapped)</span>
+        <hr>
+      </div> 
+
+      <p class="text-info-welcome2"><br>"I don't know about you, but I'm feeling 22" (Taylor Swift)</p>
+      </p>
+     
+    </div>
+  </body>
+</html>
