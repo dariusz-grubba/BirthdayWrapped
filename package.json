@@ -1,9 +1,9 @@
 {
   "name": "zuck.js",
   "version": "1.6.0",
-  "description": "A javascript library that lets you add stories EVERYWHERE.",
-  "homepage": "https://ramon.codes/projects/zuck.js",
-  "author": "Ramon Souza <me@ramon.codes> (https://ramon.codes)",
+  "description": "",
+  "homepage": "",
+  "author": "",
   "main": "./src/zuck.js",
   "keywords": [
     "stories",
@@ -22,10 +22,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ramon82/zuck.js.git"
+    "url": ""
   },
   "bugs": {
-    "url": "https://github.com/ramon82/zuck.js/issues"
+    "url": ""
   },
   "license": "MIT",
   "devDependencies": {
