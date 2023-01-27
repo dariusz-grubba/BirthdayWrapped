@@ -1,12 +1,14 @@
 # Birthday Wrapped
 
-### Features
+![photos](https://github.com/dariusz-grubba/BirthdayWrapped/blob/903423adfbae30418ea32b4c046ddee9efe319f1/src/phone.png)
+
+<!-- ### Features
 
 - Displaying the current time and date;
 - Countdown to the next break;
 - Passing the next lesson from the timetable;
 - Informing about the end of the lesson;
-- Countdown to the next school break (e.g., spring break)
+- Countdown to the next school break (e.g., spring break) -->
 
 # [Preview link](https://birthday-wrapped-project.vercel.app/ "Preview link")
 
@@ -31,7 +33,7 @@ Add the PWA’s icon to a home screen
 
 The project was created using the **React.js** framework. This made it possible to build a dynamic, responsive interface with individual modular components behind it.
 
-![photos](https://github.com/dariusz-grubba/myclock/blob/6ec46c471020042a43c48f9522fda49ceadd563c/public/phones.png)
+
 
 # Uploading your own schedule
 
